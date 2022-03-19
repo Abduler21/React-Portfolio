@@ -1,4 +1,4 @@
-# React-Protfolio
+# React-Portfolio
 
 ## Screenshots
 
