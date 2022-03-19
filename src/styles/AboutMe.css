@@ -1,0 +1,148 @@
+#my-pic {
+    width: 250px;
+    height: auto;
+    margin: 10px;
+}
+
+@media (max-width: 996px) {
+    #my-pic {
+        width: 200px;
+    }
+}
+
+#header-title {
+    color: black;
+    font-family: 'lora',sans-serif;
+    font-weight: 400;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+
+.avatar-circle {
+    border-radius: 70%;
+}
+
+.portrait-title h2 {
+    font-size: 1.75em;
+    font-weight: 300;
+    color: #000;
+    margin: 20px 0 10px;
+}
+.portrait-title h3 {
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: rgba(0,0,0,.54);
+    margin: 0 0 10px;
+}
+
+div {
+    display: block;
+}
+
+#profile {
+    text-align: center;
+    padding: 30px 10px;
+    position: relative;
+}
+
+ul.network-icon {
+    padding: 0;
+    margin: 0;
+}
+
+.ul-edu li i{
+   float: left; 
+   padding-right: 5px;
+}
+
+p.institution {
+    font-size: .75rem;
+    color: rgba(0,0,0,.6);
+    margin-left: 25px;
+    margin-top: 0;
+}
+
+ul.ul-edu li {
+    position: relative;
+    padding: 0 15px 4px 3px;
+}
+
+#skills-class {
+    background-color: rgb(241, 241, 241);
+}
+
+.featurette {
+    font-size: .8rem;
+    line-height: 1.5;
+    color: #555;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.section-heading h1 {
+    margin: 0 0 10px;
+    color: black;
+    font-weight: 300;
+    font-size: 2.25rem;
+    margin-top: 1rem;
+}
+
+.featurette-icon {
+    display: block;
+    width: 100%;
+    color: #03afff;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.featurette h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-weight: 450;
+    color: #333;
+    font-size: 1.25rem;
+}
+
+#social-pages-btn li {
+    font-size: 1.7rem;
+}
+
+#social-pages-btn li:hover {
+    transform: scale(1.3,1.3);
+}
+
+
+.course {
+    margin-bottom: 5px !important;
+}
+
+.institution {
+    margin-bottom: 5px !important;
+}
+
+#biography {
+    max-width: 66.667777%;
+}
+
+@media (max-width: 996px) {
+    #biography{
+        text-align: center;
+        max-width: 100%;
+    }
+    #biography p {
+        font-size: 15px;
+    }
+    #biography h1 {
+        font-size: 2rem;
+    }
+    #education-section h3{
+        font-size: 1.5rem;
+    }
+}
+
+
+
+
+
+

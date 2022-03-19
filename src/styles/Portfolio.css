@@ -1,0 +1,68 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.projects-container {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    height: 150px;
+}
+
+
+@media (max-width: 510px){
+    .projects-container{
+        height: 260px !important;
+        padding-bottom: 20px !important;
+    }
+    .projects-container p{
+        font-size: 13px;
+    }
+    .media.stream-item img{
+        max-width: 100px !important;
+        height: auto;
+        object-fit: cover;
+    }
+    .media.stream-item .btn-links{
+        size: 10px;
+    }
+}
+
+.media {
+    display: flex;
+    align-items: flex-start;
+}
+
+.media.stream-item{
+    margin-bottom: 2rem !important;
+}
+
+.media-body{
+    flex: 1;
+    display: block;
+}
+.article-style {
+    margin-top: 2px;
+    font-size: .8rem;
+}
+
+.media.stream-item img {
+    max-width: 150px;
+    height: auto;
+    object-fit: cover;
+}
+.article-title a {
+    font-size: 1.5rem;
+    color: black;
+}
+
+.project-heading {
+    color: black;
+    font-family: 'lora',sans-serif;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+
+.portfolio-area {
+    margin-top: 3rem;
+}

@@ -1,0 +1,44 @@
+.contact-area{
+    margin-top: 2rem;
+}
+
+h1.contact {
+    padding: 1.5em;
+} 
+
+.contact-header {
+    color: black;
+    font-family: 'lora',sans-serif;
+    font-weight: 400;
+    padding-top: 2rem;
+    margin-bottom: .5rem;
+}
+
+
+.icon-links a:hover {
+    color: #d0e1f0ce;
+    transition: 0.35s;
+    transform: scale(3);
+}
+
+#contact-form {
+    align-items: center;
+}
+
+label {
+    color: black;
+}
+
+@media screen and (max-width:768px) {
+    .fa-3x {
+        font-size: 225%;
+    }
+ 
+     .icon {
+         padding: .6rem;
+     }
+ 
+     form {
+         margin: 1em;
+     }
+}
