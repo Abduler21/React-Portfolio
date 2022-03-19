@@ -12,25 +12,13 @@ import Navbar from "./components/Navbar";
 function App() {
   return (
     <div>
-      <Router Basename="https://github.com/Abduler21/React-Portfolio">
+      <Router Basename="https://abduler21.github.io/React-Portfolio/">
         <Navbar />
 
-        <Route exact path="/Abduler21/React-Portfolio/" component={Home} />
-        <Route
-          exact
-          path="/Abduler21/React-Portfolio/about"
-          component={AboutMe}
-        />
-        <Route
-          exact
-          path="/Abduler21/React-Portfolio/portfolio"
-          component={Portfolio}
-        />
-        <Route
-          exact
-          path="/Abduler21/React-Portfolio/contact"
-          component={Contact}
-        />
+        <Route exact path="/React-Portfolio/" component={Home} />
+        <Route exact path="/React-Portfolio/about" component={AboutMe} />
+        <Route exact path="/React-Portfolio/portfolio" component={Portfolio} />
+        <Route exact path="/React-Portfolio/contact" component={Contact} />
       </Router>
       <Footer />
     </div>
