@@ -41,6 +41,15 @@ const data = [
     appUrl: " https://abduler21.github.io/Weather-Page/",
     githubUrl: "https://github.com/Abduler21/Weather-Page",
   },
+  {
+    id: 5,
+    image: "",
+    alt: "GG-DENIM",
+    name: "GG-DENIM",
+    text: "This app is e-commerce website for GG-DENIM and also built as a brand template for future clients that wants to start up a e-commerce business.",
+    appUrl: "https://brand-to-death.herokuapp.com/ ",
+    githubUrl: "https://github.com/Abduler21/brand-template",
+  },
 ];
 
 export default data;
