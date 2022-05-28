@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/AboutMe.css";
 import "../styles/Home.css";
-import Picture from "../images/img_1683.jpg";
+import Picture from "../images/IMG_3701.jpg";
 import { Container, Row, Col, Image } from "react-bootstrap";
 
 function AboutMe() {
