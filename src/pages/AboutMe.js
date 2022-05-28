@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/AboutMe.css";
+import "../styles/Home.css";
 import Picture from "../images/img_1683.jpg";
 import { Container, Row, Col, Image } from "react-bootstrap";
 
@@ -16,7 +17,7 @@ function AboutMe() {
                 src={Picture}
               />
               <div className="portrait-title">
-                <h2>Abdulmelik Ersooy</h2>
+                <h2>Abdulmelik Ersoy</h2>
                 <h3>Full Stack Web Developer</h3>
                 <h3>
                   <a
