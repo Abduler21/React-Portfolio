@@ -50,6 +50,33 @@ const data = [
     appUrl: "https://brand-to-death.herokuapp.com/ ",
     githubUrl: "https://github.com/Abduler21/brand-template",
   },
+  {
+    id: 6,
+    image: "",
+    alt: "PUBLANT",
+    name: "PUBLANT",
+    text: "",
+    appUrl: "http://www.publant.com/",
+    githubUrl: "",
+  },
+  {
+    id: 7,
+    image: "",
+    alt: "FRISKY CIGARS",
+    name: "FRISKY CIGARS",
+    text: "",
+    appUrl: "http://www.friskycigars.com",
+    githubUrl: "",
+  },
+  {
+    id: 8,
+    image: "",
+    alt: "KITCHENERP",
+    name: "KITCHENERP",
+    text: "",
+    appUrl: "http://kitchenerp.com",
+    githubUrl: "",
+  },
 ];
 
 export default data;

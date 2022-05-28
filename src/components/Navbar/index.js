@@ -38,7 +38,7 @@ export function NavBar() {
           <li className="nav-item">
             <a
               className="nav-link "
-              href="https://drive.google.com/file/d/1qR2zmbS5XsalEWRd4kKjQ-ADLcoFCJS5/view?usp=sharing"
+              href="https://docs.google.com/document/d/1SliiLcFJE6ZvsnE6EEDKIBnOCT80uqBTrRJfUvZLg2s/edit?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >
