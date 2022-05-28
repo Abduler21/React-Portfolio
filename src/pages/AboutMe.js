@@ -16,7 +16,7 @@ function AboutMe() {
                 src={Picture}
               />
               <div className="portrait-title">
-                <h2>Abdulmelik Ersoy</h2>
+                <h2>Abdulmelik Ersooy</h2>
                 <h3>Full Stack Web Developer</h3>
                 <h3>
                   <a
@@ -67,11 +67,7 @@ function AboutMe() {
           <Col sm={12} lg={8}>
             <div id="biography">
               <h1 id="header-title">Biography</h1>
-              <p>
-                My name is Abdulmelik Ersoy and I am currently enrolled in
-                Rutgers University Full Stack Web Development Bootcamp where i
-                will be graduating April of 2022
-              </p>
+
               <p>
                 I am a young programmer, eager to always learn new concepts and
                 ideas that will further my programming skills and take my
